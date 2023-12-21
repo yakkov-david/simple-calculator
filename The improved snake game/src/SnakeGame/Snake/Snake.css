@@ -1,0 +1,14 @@
+.snake-segment {
+    position: absolute;
+    height: 20px; /* Use CELL_SIZE from constants.js */
+    width: 20px; /* Use CELL_SIZE from constants.js */
+    background-color: #fff; /* Use SNAKE_COLOR from constants.js */
+  }
+  
+  /* Style for each segment of the snake */
+.snake-segment {
+  position: absolute;
+  height: 20px; /* Use CELL_SIZE from constants.js */
+  width: 20px; /* Use CELL_SIZE from constants.js */
+  background-color: #fff; /* Use SNAKE_COLOR from constants.js */
+}

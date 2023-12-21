@@ -1,0 +1,5 @@
+בס"ד
+בר"ה
+
+*the startgame function is initialized 
+before the user clicks the trigger button

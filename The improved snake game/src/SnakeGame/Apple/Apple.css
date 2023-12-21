@@ -1,0 +1,14 @@
+.apple {
+    position: absolute;
+    height: 20px; /* Use CELL_SIZE from constants.js */
+    width: 20px; /* Use CELL_SIZE from constants.js */
+    background-color: red; /* Use APPLE_COLOR from constants.js */
+  }
+  
+  /* Style for the apple */
+.apple {
+  position: absolute;
+  height: 20px; /* Use CELL_SIZE from constants.js */
+  width: 20px; /* Use CELL_SIZE from constants.js */
+  background-color: red; /* Use APPLE_COLOR from constants.js */
+}

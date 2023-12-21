@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000;
+}
+
+.game-container {
+  position: relative;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#game-over-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  z-index: 10;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+#score-board {
+  position: absolute;
+  top: -30px; /* Adjust this value as needed */
+  color: #fff;
+  font-size: 24px;
+}
+
+/*.Snake, .Apple {
+  position: absolute;
+  height: ${CELL_SIZE}px;
+  width: ${CELL_SIZE}px;
+}*/
+
+/* Style for the main game container */
+.game-container {
+  position: relative;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the game over popup */
+#game-over-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  z-index: 10;
+}
+
+/* Style for the buttons */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* Style for the score board */
+#score-board {
+  position: absolute;
+  top: -30px; /* Adjust this value as needed */
+  color: #fff;
+  font-size: 24px;
+}
+
+.game-controls {
+  margin-top: 20px; /* Space above the controls */
+  text-align: center; /* Center align the buttons and dropdown */
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px; /* Spacing between button and select box */
+}
+
+/*#difficulty-level {
+  display: inline-block; /* Align with the button */
